@@ -7,4 +7,5 @@
 [Codesmith: An Introduction to Functions, Execution Context, and the Call Stack](https://www.youtube.com/watch?v=exrc_rLj5iw)
 
 ## `this` binding
+[MDN: this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 [How does the "this" keyword work within a function?](https://stackoverflow.com/questions/133973/how-does-this-keyword-work-within-a-function)
