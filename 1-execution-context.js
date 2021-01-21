@@ -35,14 +35,14 @@ function outerDeclaredFunction() {
 
 if (true) {
   // console.log(hello);
-  // const hello = 'hello (if block)';
+  const hello = 'hello (if block)';
   console.log(hello);
   console.log(goodbye);
 }
 
 while (true) {
-  // console.log(hello);
-  // const hello = 'hello (while block)';
+  console.log(hello2);
+  var hello2 = 'hello (while block)';
   console.log(hello);
   console.log(goodbye);
   break;

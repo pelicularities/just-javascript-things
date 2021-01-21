@@ -25,6 +25,9 @@ retriever.makeNoise();
 
 const dogBehaviour = {
   makeNoise: function() {
+    console.log(`a ${this.breed} goes ${this.noise}`);
+  },
+  makeNoise2: function() {
     console.log("Don't forget to step into the next function!");
     // uncomment the following blocks out
     // one at a time, to see the effect
@@ -61,3 +64,4 @@ function dogFactory(breed, noise) {
 
 const chihuahua = dogFactory('chihuahua', 'yipyipyip');
 chihuahua.makeNoise();
+chihuahua.makeNoise2();
